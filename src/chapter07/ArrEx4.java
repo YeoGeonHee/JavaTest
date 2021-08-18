@@ -27,8 +27,8 @@ public class ArrEx4 {
         };
 
         System.out.println("[첫번째]");
-        for (int i=0; i<matrix.length; i++) {
-            for (int j=0; j<matrix[i].length; j++) {
+        for (int i=0; i<matrix.length; i++) {  //첫번째 배열 for문
+            for (int j=0; j<matrix[i].length; j++) {   //두번째 배열 for문
                 System.out.print(matrix[i][j]+" ");
             }
             System.out.println();
